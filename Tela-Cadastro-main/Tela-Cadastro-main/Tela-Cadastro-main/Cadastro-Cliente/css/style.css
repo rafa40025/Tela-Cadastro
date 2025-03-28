@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+
+        background-color: tomato;
+        padding: 30px;
+        gap: 60px;
+
+        h1 {
+            font-family: "Poppins", sans-serif;
+            width: 400px;
+            font-size: 36px;
+            line-height: 100%;
+        }
+
+        form {
+            display: flex;
+            background-color: aqua;
+            padding: 40px;
+            flex-direction: column;
+            align-content: space-between;
+
+            .nomecompleto {
+                display: flex;
+                justify-content: center;
+
+            }
+
+            .datacpf {
+                display: flex;
+                justify-content: center;
+            }
+
+            .cepcomplemento {
+                display: flex;
+                justify-content: center;
+            }
+
+            .cidadebairro {
+                display: flex;
+                justify-content: center;
+            }
+
+            .ruanumero {
+                display: flex;
+                justify-content: center;
+
+            }
+            
+        }
+
+
+
+    }
+
+}
